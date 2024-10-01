@@ -461,7 +461,7 @@ function getMatrixProduct(m1, m2) {
 
   const resultMatrix = Array(rowsM1).fill(0).map(() => Array(columnM2).fill(0));
 
-  if (rowsM1 !== columnM2) return resultMatrix; 
+  if (rowsM1 !== columnM2) return resultMatrix;
 
   for (let i = 0; i < rowsM1; i += 1) {
     for (let k = 0; k < columnM2; k += 1) {
